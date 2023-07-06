@@ -1,7 +1,8 @@
 // Klavyeden girilen 2 sayının toplamını hesaplayan ve sonucunu ekrana yazdıran javascript programını yazınız?
 
-var s1 = parseInt(prompt("Sayi 1. giriniz:"));
-var s2 = parseInt(prompt("Sayi 2. giriniz:"));
-var toplam = s1 + s2;
+let num1 = parseInt(prompt("First number: "));
+let num2 = parseInt(prompt("Second number: "));
 
-console.log(toplam);
+let sum = num1 + num2;
+
+console.log(sum);
